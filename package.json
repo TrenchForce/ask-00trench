@@ -1,0 +1,1 @@
+{ "name": "ask-00trench", "private": true, "type": "module", "scripts": { "test": "node --test test/casefile.test.mjs", "dev": "cd worker \&\& npx wrangler dev" }, "license": "Apache-2.0" }

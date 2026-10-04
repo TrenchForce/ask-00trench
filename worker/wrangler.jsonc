@@ -1,0 +1,12 @@
+// Minimal config to run the Ask 00Trench worker yourself. The hosted version adds the website, custom domain, KV daily cap and rate limits.
+{
+  "name": "ask-00trench",
+  "main": "src/agent.js",
+  "compatibility_date": "2026-09-01",
+  "vars": {
+    "SOLANA_RPC": "https://solana-rpc.publicnode.com",
+    "X402_NETWORK": "mainnet", "X402_PRICE": "10000",
+    "PAY_TO": "<your Solana wallet address>"
+  }
+  // chat (optional): npx wrangler secret put GEMINI_API_KEY
+}

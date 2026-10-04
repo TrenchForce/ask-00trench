@@ -1,0 +1,2 @@
+{ "name": "ask-00trench-example-agent", "private": true, "type": "module",
+  "dependencies": { "@solana/web3.js": "1.98.4", "@solana/spl-token": "0.4.14", "bs58": "6.0.0" } }
